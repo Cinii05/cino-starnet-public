@@ -36,6 +36,11 @@
     "query_index_reduction_pct": 59.83,
     "activated_body_reduction_pct": 43.17
   },
-  "status": "PUBLIC_RC_DIRECTORY_PREFLIGHT_PENDING_LIVE_ROUTING",
-  "candidate_zip_sha256": "01e4f915b328b096e10c6bd1f8865543a7fb3aa919ed03a3c8317bb6e2907317"
+  "status": "OPENAI_DIRECTORY_IN_REVIEW",
+  "candidate_zip_sha256": "01e4f915b328b096e10c6bd1f8865543a7fb3aa919ed03a3c8317bb6e2907317",
+  "directory_submission_zip_sha256": "ebc8821ed99e76e3566e401f541bc6686b85305efed60f0229a1f2060593ea56",
+  "openai_directory_submission_date": "2026-10-06",
+  "openai_metadata_checks": "PASS",
+  "openai_skill_checks": "12/12 PASS",
+  "openai_review_status": "IN_REVIEW"
 }
