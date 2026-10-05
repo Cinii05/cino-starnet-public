@@ -1,0 +1,20 @@
+{
+  "name": "cino-starnet-public",
+  "interface": {
+    "displayName": "Cino StarNet"
+  },
+  "plugins": [
+    {
+      "name": "cino-starnet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Cinii05/cino-starnet-public.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

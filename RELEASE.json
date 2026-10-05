@@ -1,0 +1,41 @@
+{
+  "release": "1.0.0",
+  "source_authority": {
+    "agent02b_final_sha": "12140279eebd33736d326cd6e941c18837fa235c",
+    "agent02b_handoff_zip_sha256": "60e17e16ecff2ad1ab20efaf660a74b64173f5b1a1705c66bf3aaddd1e722f3"
+  },
+  "public_skill_count": 12,
+  "public_skills": [
+    "cino-agent-router",
+    "cino-context-funnel",
+    "cino-evidence-handoff",
+    "cino-plan-before-build",
+    "cino-repo-navigator",
+    "cino-skill-governor",
+    "cino-skill-governor-approval-model",
+    "cino-source-of-truth",
+    "cino-test-router",
+    "read-only-operational-coherence-checks",
+    "repository-issue-and-merge-evidence-reconciliation",
+    "starnet-worktree-acceptance-evidence-review"
+  ],
+  "excluded_canonical_skills": [
+    "oversee-the-moving-chain-work",
+    "tmc-current-state-reconciliation",
+    "tmc-ui-master"
+  ],
+  "exclusion_reason": "Project-specific TMC procedures remain outside public Cino StarNet; tmc-ui-master remains owned by Cino Toolkit/TMC.",
+  "accepted_agent02b_metrics": {
+    "routing_accuracy": 1.0,
+    "activation_precision": 1.0,
+    "activation_recall": 1.0,
+    "misses": 0,
+    "unnecessary_activations": 0,
+    "authority_leakage": 0,
+    "precedence": "24/24",
+    "query_index_reduction_pct": 59.83,
+    "activated_body_reduction_pct": 43.17
+  },
+  "status": "PUBLIC_RC1_LOCAL_AND_CACHE_PARITY_PASS_LIVE_ROUTING_PENDING",
+  "candidate_zip_sha256": "01e4f915b328b096e10c6bd1f8865543a7fb3aa919ed03a3c8317bb6e2907317"
+}

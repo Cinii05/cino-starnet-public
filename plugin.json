@@ -1,0 +1,52 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cino-starnet",
+  "version": "1.0.0",
+  "description": "Provider-neutral multi-agent reliability, routing, evidence, testing, source-of-truth, and skill-governance procedures for complex autonomous work.",
+  "author": {
+    "name": "Max Cini",
+    "email": "293613553+Cinii05@users.noreply.github.com",
+    "url": "https://github.com/Cinii05"
+  },
+  "keywords": [
+    "multi-agent",
+    "orchestration",
+    "routing",
+    "reliability",
+    "evidence",
+    "testing",
+    "governance",
+    "autonomy"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Cino StarNet",
+        "shortDescription": "Multi-agent reliability & orchestration",
+        "longDescription": "Provider-neutral procedures for routing complex work, controlling context, resolving source authority, selecting tests, governing reusable skills, and producing evidence-grade handoffs.",
+        "developerName": "Max Cini",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Route this complex mission across the smallest safe set of specialist agents.",
+          "Resolve the governing source of truth for this conflicting evidence.",
+          "Choose the smallest sufficient verification strategy for this change."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "brandColor": "#4F46E5",
+        "brandColorDark": "#C4B5FD",
+        "websiteURL": "https://github.com/Cinii05/cino-starnet-public",
+        "supportURL": "https://github.com/Cinii05/cino-starnet-public/issues",
+        "privacyPolicyURL": "https://github.com/Cinii05/cino-toolkit-public/blob/main/policies/CINO-PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/Cinii05/cino-toolkit-public/blob/main/policies/CINO-TERMS.md"
+      }
+    }
+  },
+  "homepage": "https://github.com/Cinii05/cino-starnet-public",
+  "repository": "https://github.com/Cinii05/cino-starnet-public"
+}
