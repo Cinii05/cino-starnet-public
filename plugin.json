@@ -22,7 +22,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Cino StarNet",
-        "shortDescription": "Multi-agent reliability & orchestration",
+        "shortDescription": "Agent reliability & routing",
         "longDescription": "Provider-neutral procedures for routing complex work, controlling context, resolving source authority, selecting tests, governing reusable skills, and producing evidence-grade handoffs.",
         "developerName": "Max Cini",
         "category": "Productivity",
