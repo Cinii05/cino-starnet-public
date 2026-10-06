@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cino-starnet",
-  "version": "1.0.0",
-  "description": "Provider-neutral multi-agent reliability, routing, evidence, testing, source-of-truth, and skill-governance procedures for complex autonomous work.",
+  "version": "1.1.0",
+  "description": "Thirteen provider-neutral StarNet skills for mission prompt design, multi-agent routing, context control, evidence, testing, source-of-truth, and reliability governance.",
   "author": {
     "name": "Max Cini",
     "email": "293613553+Cinii05@users.noreply.github.com",
@@ -23,7 +23,7 @@
       "interface": {
         "displayName": "Cino StarNet",
         "shortDescription": "Agent reliability & routing",
-        "longDescription": "Provider-neutral procedures for routing complex work, controlling context, resolving source authority, selecting tests, governing reusable skills, and producing evidence-grade handoffs.",
+        "longDescription": "Thirteen provider-neutral StarNet skills for compiling high-fidelity overseer mission prompts, routing complex work, controlling context, resolving source authority, selecting tests, governing reusable skills, and producing evidence-grade handoffs.",
         "developerName": "Max Cini",
         "category": "Productivity",
         "capabilities": [
@@ -32,9 +32,9 @@
           "Write"
         ],
         "defaultPrompt": [
+          "Help me build the first mission prompt I should send to my StarNet overseer.",
           "Route this complex mission across the smallest safe set of specialist agents.",
-          "Resolve the governing source of truth for this conflicting evidence.",
-          "Choose the smallest sufficient verification strategy for this change."
+          "Resolve the governing source of truth for this conflicting evidence."
         ],
         "logo": "./assets/icon.png",
         "composerIcon": "./assets/icon.png",
@@ -44,6 +44,9 @@
         "supportURL": "https://github.com/Cinii05/cino-starnet-public/issues",
         "privacyPolicyURL": "https://github.com/Cinii05/cino-toolkit-public/blob/main/policies/CINO-PRIVACY.md",
         "termsOfServiceURL": "https://github.com/Cinii05/cino-toolkit-public/blob/main/policies/CINO-TERMS.md"
+      },
+      "publication": {
+        "release_notes": "Cino StarNet 1.1.0 adds the Overseer Mission Prompt Builder: a deep pre-launch interview and prompt compiler that turns rough intent into a CALLUS-ready mission brief while preserving StarNet's existing routing and execution boundaries."
       }
     }
   },

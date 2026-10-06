@@ -1,0 +1,40 @@
+{
+  "skill": "cino-overseer-mission-prompt-builder",
+  "positive": [
+    {
+      "prompt": "Help me work out exactly what I should send to CALLUS to launch this new StarNet mission.",
+      "expect": "cino-overseer-mission-prompt-builder"
+    },
+    {
+      "prompt": "Grill me on every important decision, then write the first prompt for my StarNet overseer.",
+      "expect": "cino-overseer-mission-prompt-builder"
+    },
+    {
+      "prompt": "Turn this rough project idea into a complete CALLUS launch prompt without deciding the live agent assignments for him.",
+      "expect": "cino-overseer-mission-prompt-builder"
+    },
+    {
+      "prompt": "Prepare the mission brief I should paste into StarNet before the overseer distributes the work.",
+      "expect": "cino-overseer-mission-prompt-builder"
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "Route this task to the right StarNet agent.",
+      "expect": "cino-agent-router"
+    },
+    {
+      "prompt": "Implement this non-trivial authorised change.",
+      "expect": "cino-plan-before-build"
+    },
+    {
+      "prompt": "Grill me about my product idea; I am not using StarNet.",
+      "expect": "grill-me (Cino Toolkit)"
+    },
+    {
+      "prompt": "Package the evidence from this completed run.",
+      "expect": "cino-evidence-handoff"
+    }
+  ],
+  "chain_boundary": "Prompt builder stops after producing the launch prompt; CALLUS/live StarNet planning begins only after handoff."
+}

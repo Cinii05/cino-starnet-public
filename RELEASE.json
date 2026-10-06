@@ -1,14 +1,22 @@
 {
-  "release": "1.0.0",
+  "release": "1.1.0",
+  "previous_release": {
+    "version": "1.0.0",
+    "openai_review_status": "IN_REVIEW",
+    "openai_directory_submission_date": "2026-10-06",
+    "directory_submission_zip_sha256": "ebc8821ed99e76e3566e401f541bc6686b85305efed60f0229a1f2060593ea56",
+    "rollback_tag": "v1.0.0"
+  },
   "source_authority": {
     "agent02b_final_sha": "12140279eebd33736d326cd6e941c18837fa235c",
     "agent02b_handoff_zip_sha256": "60e17e16ecff2ad1ab20efaf660a74b64173f5b1a1705c66bf3aaddd1e722f3"
   },
-  "public_skill_count": 12,
+  "public_skill_count": 13,
   "public_skills": [
     "cino-agent-router",
     "cino-context-funnel",
     "cino-evidence-handoff",
+    "cino-overseer-mission-prompt-builder",
     "cino-plan-before-build",
     "cino-repo-navigator",
     "cino-skill-governor",
@@ -19,13 +27,26 @@
     "repository-issue-and-merge-evidence-reconciliation",
     "starnet-worktree-acceptance-evidence-review"
   ],
-  "excluded_canonical_skills": [
-    "oversee-the-moving-chain-work",
-    "tmc-current-state-reconciliation",
-    "tmc-ui-master"
+  "new_skills": [
+    "cino-overseer-mission-prompt-builder"
   ],
-  "exclusion_reason": "Project-specific TMC procedures remain outside public Cino StarNet; tmc-ui-master remains owned by Cino Toolkit/TMC.",
-  "accepted_agent02b_metrics": {
+  "new_skill_contract": {
+    "owns": "pre-launch mission elicitation and CALLUS/overseer prompt compilation",
+    "does_not_own": [
+      "live mission decomposition",
+      "agent routing/dispatch",
+      "mission execution",
+      "replanning",
+      "QA",
+      "deployment"
+    ],
+    "references": [
+      "skills/cino-overseer-mission-prompt-builder/references/intake-checklist.md",
+      "skills/cino-overseer-mission-prompt-builder/references/callus-prompt-contract.md",
+      "skills/cino-overseer-mission-prompt-builder/references/routing-boundaries.md"
+    ]
+  },
+  "accepted_agent02b_baseline": {
     "routing_accuracy": 1.0,
     "activation_precision": 1.0,
     "activation_recall": 1.0,
@@ -36,11 +57,6 @@
     "query_index_reduction_pct": 59.83,
     "activated_body_reduction_pct": 43.17
   },
-  "status": "OPENAI_DIRECTORY_IN_REVIEW",
-  "candidate_zip_sha256": "01e4f915b328b096e10c6bd1f8865543a7fb3aa919ed03a3c8317bb6e2907317",
-  "directory_submission_zip_sha256": "ebc8821ed99e76e3566e401f541bc6686b85305efed60f0229a1f2060593ea56",
-  "openai_directory_submission_date": "2026-10-06",
-  "openai_metadata_checks": "PASS",
-  "openai_skill_checks": "12/12 PASS",
-  "openai_review_status": "IN_REVIEW"
+  "baseline_preservation": "The 12 existing v1.0.0 skill bodies are unchanged; v1.1.0 adds one bounded pre-launch skill.",
+  "status": "DIRECTORY_SUCCESSOR_CANDIDATE_PENDING_ROUTING_ACCEPTANCE"
 }
