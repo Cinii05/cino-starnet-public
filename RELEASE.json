@@ -58,5 +58,17 @@
     "activated_body_reduction_pct": 43.17
   },
   "baseline_preservation": "The 12 existing v1.0.0 skill bodies are unchanged; v1.1.0 adds one bounded pre-launch skill.",
-  "status": "DIRECTORY_SUCCESSOR_CANDIDATE_PENDING_ROUTING_ACCEPTANCE"
+  "status": "OPENAI_DIRECTORY_SUCCESSOR_READY_TO_UPLOAD",
+  "candidate_zip_sha256": "c74200c53c0b807562a5bbf71be50f34d368167d491a36a50a6f5bf48b15feda",
+  "deterministic_validation": {
+    "plugin_version": "1.1.0",
+    "skill_count": 13,
+    "new_skill_present": true,
+    "existing_12_skill_bodies_modified": false,
+    "forbidden_private_markers": 0,
+    "public_install_payload_parity": "PASS",
+    "payload_mismatches": 0,
+    "routing_fixture_cases": 8,
+    "model_usage": "none"
+  }
 }
