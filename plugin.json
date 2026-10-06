@@ -25,7 +25,7 @@
         "shortDescription": "Agent reliability & routing",
         "longDescription": "Thirteen provider-neutral StarNet skills for compiling high-fidelity overseer mission prompts, routing complex work, controlling context, resolving source authority, selecting tests, governing reusable skills, and producing evidence-grade handoffs.",
         "developerName": "Max Cini",
-        "category": "Productivity",
+        "category": "Developer Tools",
         "capabilities": [
           "Interactive",
           "Read",
